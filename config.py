@@ -8,5 +8,5 @@ BOT_TOKEN = "7043502393:AAHl5kbadb92YsrY-i4vpnVwCPi3QXCIxvU" #Put your bot token
 CHANNEL = getenv("CHANNEL", "about_tosuu") #Your public channel username without @ for force subscription.
 MONGO = "mongodb+srv://tusar:tusar1@cluster0.guw5d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #Put mongo db url here
 #Optional Variables
-OWNER_ID = int(getenv("OWNER_ID", 6848223695)) #Go to @ThunderrXbot and type /id and put that value here. 
+OWNER_ID = "6848223695" #Go to @ThunderrXbot and type /id and put that value here. 
 FSUB = bool(getenv("FSUB", True)) #Set this True if you want to enable force subscription from users else set to False.
