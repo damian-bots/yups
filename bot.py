@@ -55,7 +55,7 @@ async def start(app: Client, msg: Message):
                         InlineKeyboardButton(f"ᴀᴅᴅ {app.me.first_name}", url=f"https://t.me/{app.me.username}?startgroup=true")
                     ],
                     [
-                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ZenBotX")
+                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/botz_x_hub")
                     ],
                 ]
             )
