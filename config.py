@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 #Necessary Variables 
 API_ID = int(getenv("API_ID", 29400566))
 API_HASH = getenv("API_HASH", "8fd30dc496aea7c14cf675f59b74ec6f")
-BOT_TOKEN = "7043502393:AAHl5kbadb92YsrY-i4vpnVwCPi3QXCIxvU" #Put your bot token here
+BOT_TOKEN = "7562097186:AAH7Qlf7S7yCkhP-c7ESGtEi4oD86YltSco" #Put your bot token here
 CHANNEL = getenv("CHANNEL", "about_tosuu") #Your public channel username without @ for force subscription.
 MONGO = "mongodb+srv://tusar:tusar1@cluster0.guw5d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #Put mongo db url here
 #Optional Variables
