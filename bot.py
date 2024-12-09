@@ -71,7 +71,7 @@ async def gc(app: Client, msg: Message):
     await msg.reply_text(text=f"{msg.from_user.mention} Start Me In Private For More Info..", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Start Me In Private", url=f"https://t.me/{app.me.username}?start=start")]]))
 
 #stats
-@app.on_message(filters.command("stats") & filters.user(config.OWNER_ID))
+@app.on_message(filters.command("stats") & filters.user(6848223695))
 async def dbtool(app: Client, m: Message):
     xx = all_users()
     x = all_groups()
